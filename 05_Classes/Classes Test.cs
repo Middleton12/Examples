@@ -7,8 +7,22 @@ namespace _05_Classes
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void CookieTests()
         {
+            Cookie cookie = new Cookie();
+            cookie.Name = "Snickerdoodle";
+            Cookie anotherCookie = new Cookie();
+            anotherCookie.Name = "Something else";
+
+          
+        }
+
+        [TestMethod]
+
+        public void VehicleTests()
+        {
+            Vehicle car = new Vehicle();
+            car.TypeofVehicle = VehicleType.Car;
         }
     }
 }
